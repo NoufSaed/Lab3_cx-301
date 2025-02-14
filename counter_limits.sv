@@ -42,10 +42,9 @@ module test;
         counter c1;
         c1 = new();
         
-        // اختبار الحدود
         c1.check_limit(10, 0);
-        c1.check_set(15);  // قيمة خارج النطاق
-        c1.check_set(5);   // قيمة داخل النطاق
+        c1.check_set(15);  
+        c1.check_set(5);   
         $display("Counter value: %0d", c1.getcount());
     end
 endmodule
