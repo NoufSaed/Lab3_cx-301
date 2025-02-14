@@ -1,6 +1,5 @@
 class counter;
     protected int count;
-    
 
     function new(int initial_value = 0);
         count = initial_value;
